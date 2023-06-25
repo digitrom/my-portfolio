@@ -1,0 +1,31 @@
+.mainBlock {
+    height: 100vh;
+    background-color: bisque;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.mainContainer {
+    border: 1px solid;
+    width: 80%;
+    height: 100%;
+    /*margin: 0 auto;*/
+    /*или так в родительской .mainBlock: */
+    /*display: flex;*/
+    /*justify-content: space-around;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.greetings {
+    background-color: greenyellow;
+    width: 300px;
+}
+
+.photo {
+    background-color: grey;
+    width: 300px;
+    height: 400px;
+}
