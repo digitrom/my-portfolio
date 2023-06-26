@@ -1,7 +1,7 @@
 import React from "react";
-import style from './Nav.module.css';
+import style from './Navbar.module.css';
 
-const Nav = () => {
+const Navbar = () => {
     return (
         <div className={style.nav}>
             <a href="">Main</a>
@@ -12,4 +12,4 @@ const Nav = () => {
     );
 }
 
-export default Nav;
+export default Navbar;
