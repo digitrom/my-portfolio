@@ -1,0 +1,28 @@
+.footerBlock {
+    width: 100%;
+    height: 30vh;
+    background-color: #63ded9;
+    display: flex;
+    justify-content: center;
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.socialNetwork {
+    border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    height: 50px;
+}
+
+.socialNetworkIcon {
+    background-color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
