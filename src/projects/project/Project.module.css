@@ -1,12 +1,12 @@
 .project {
     border: 1px solid;
+    background-color: #b2b2b2;
     text-align: center;
-    width: 300px;
+    width: 400px;
 }
 
 .image {
     background-color: greenyellow;
-    width: 300px;
     height: 300px;
     display: flex;
     justify-content: center;
