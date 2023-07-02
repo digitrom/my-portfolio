@@ -11,18 +11,20 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .socialNetwork {
     border: 1px solid;
     display: flex;
     justify-content: space-between;
-    width: 400px;
-    height: 50px;
+    width: 70%;
+    flex-wrap: wrap;
 }
 
 .socialNetworkIcon {
     background-color: aquamarine;
     height: 50px;
     width: 50px;
+    flex-wrap: wrap;
 }

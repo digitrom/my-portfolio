@@ -1,8 +1,9 @@
 .hireBlock {
     background-color: aquamarine;
-    height: 15vh;
+    min-height: 15vh;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .hireContainer {
@@ -10,4 +11,5 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
 }
