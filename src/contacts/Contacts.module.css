@@ -16,7 +16,7 @@
 
 .form {
     height: 200px;
-    min-width: 40%;
+    width: 600px;
     border: 1px solid;
     display: flex;
     flex-direction: column;
@@ -41,4 +41,10 @@
     /*width: 100%;*/
     height: 120px;
     padding: 0px;
+}
+
+@media screen and (max-width: 768px){
+    .form {
+        width: 100%;
+    }
 }
