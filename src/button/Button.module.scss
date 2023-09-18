@@ -1,0 +1,9 @@
+@import "../common/styles/sass/Variables";
+.viewBtn {
+    background-color: #eeeef5;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 1;
+    text-decoration: aquamarine;
+    color: $textColor;
+}

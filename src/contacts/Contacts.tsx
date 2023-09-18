@@ -3,12 +3,13 @@ import styleContainer from '../common/styles/Container.module.css'
 import style from './Contacts.module.css'
 import Button from "../button/Button";
 import Input from "../input/Input";
+import Title from "../common/components/title/Title";
 
 const Contacts = () => {
     return (
         <div className={style.contactsBlock}>
             <div className={`${styleContainer.container} ${style.contactsContainer}`}>
-                <h2>Contacts</h2>
+          <Title title={'Contacts'}/>
                     <form className={style.form}>
                         <Input placeholder={'Your name'}/>
                         <Input placeholder={'Your surname'}/>
