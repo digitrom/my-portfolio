@@ -1,7 +1,7 @@
-
+@import "../../styles/sass/Variables";
 .title {
-  background-color: grey;
-  color: #fff;
+  //background-color: grey;
+  color: $textColor;
   margin-bottom: 30px;
   position: relative;
 
@@ -20,7 +20,7 @@
   &::before {
     content: "";
     position: absolute;
-    background: #4e93e6;
+    background: $primaryColor;
     width: 55px;
     height: 1px;
     bottom: -30px;
